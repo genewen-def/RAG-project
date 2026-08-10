@@ -1,0 +1,25 @@
+# ===== 环境变量（绝不提交真实值）=====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 日志与临时文件 =====
+logs/
+*.log
+temp-files/
+output/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== 本地模型缓存 =====
+*.pth
+*.safetensors
